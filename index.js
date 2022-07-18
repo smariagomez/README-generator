@@ -32,14 +32,21 @@ const questions = [
     type: 'input',
 },
 {
-    message: 'Write the instruction and provide examples for use. Include screenshots.',
+    message: 'Write instructions and provide examples for how to use the application. Screenshots will need to be typed directly into the read me through the appropriate filepath.',
     name: 'usage',
     type: 'input',
 },
 {
-    message: '1)List your collaborators, if any with links to their GitHub profiles. 2)List any third-party assets that require attribution, list the creators with link to their primary web presence in this section. 3)Include links to tutorials that were followed to complete your project.',
+    message: '1)List your collaborators, if any with the URL links to their GitHub profiles. 2)List any third-party assets that require attribution, list the creators with link to their primary web presence in this section. 3)Include links to tutorials that were followed to complete your project.',
     name: 'credits',
     type: 'input',
+},
+{
+    message: 'Select which license applies to your application.',
+    name: 'license',
+    type: 'list',
+    choices: ['MIT License','']
+
 },
 {
     message: 'Write the guidelines for contributing to this application. If left blank this will default to Contributor Covenant linked below.',
@@ -48,18 +55,18 @@ const questions = [
     default: ' Please review the [Contributor Covenant](https://www.contributor-covenant.org/) for guidlines on how to contribute to this application.'
 },
 {
-    message: 'Incled any tests you have written for your application. Then provide examples on how to run them here.',
+    message: 'Include any tests you have written for your application. Then provide examples on how to run them here.',
     name: 'tests',
     type: 'input',
     default: 'At this time, no tests have been written for this application.'
 },
 {
-    message: 'Enter in your GitHub profile name along with the https://.',
-    name: 'questions1',
+    message: 'Enter in your GitHub profile name along with the corresponding URL',
+    name: 'GitHub',
     type: 'input',
 },
 {
-    message: 'Include an email contact link. Type Email me at: emailname@emailhost.com',
+    message: 'Enter in your primary contact email e.g., user@emailhost.com',
     name: 'questions2',
     input: 'type',
 }

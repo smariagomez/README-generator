@@ -32,22 +32,12 @@ function generateMarkdown(data) {
   
   ## Usage
   ${data.usage}
-  
-  Provide instructions and examples for use. Include screenshots as needed.
-  
-  To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-  
-      md
-      ![alt text](assets/images/screenshot.png)
       
-  
   ## Credits
   ${data.credits}
   
   ## License
-  
-  The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-  
+  ${data.license}
   ---
   
   ## Contributing
@@ -58,14 +48,17 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  Below is a link to my GitHub profile along with a link to my email.
-  GitHub Profile:\n
-  ${data.questions1}\n
-  ${data.questions2}
+  If you have any questions about the repo, you can open an issue or contact me directly at: ${data.questions2}. See more of my work at https://github.com/${data.GitHub}
+
 `;
 }
-
+// GitHub Profile:
+// https://github.com/${data.GitHub}\n
+// Email me at: 
+// ${data.questions2}
 module.exports = generateMarkdown;
+
+// The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 //Text below was added as the default to the the index.js
 // Please review the [Contributor Covenant](https://www.contributor-covenant.org/) for guidlines on how to contribute to this application.

@@ -1,7 +1,7 @@
-# README-generator
+# rmg
 
   ## Description
-  This is a command line application that was 
+  command line
   
   ## Table of Contents (Optional)
   
@@ -14,26 +14,16 @@
   - [Questions](#questions)
   
   ## Installation
-  Unknown
+  testing
   
   ## Usage
-  To be completed.
-  
-  Provide instructions and examples for use. Include screenshots as needed.
-  
-  To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-  
-      md
-      ![alt text](assets/images/screenshot.png)
+  testing
       
-  
   ## Credits
-  Phillip Loy, youTube, node.js documentation, 
+  Phillip Loy, David Hzura, https://www.npmjs.com/package/inquirer, Markodex https://www.youtube.com/watch?v=Qf5EXOyGRxw&t=429s
   
   ## License
-  
-  The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-  
+  MIT License
   ---
   
   ## Contributing
@@ -44,9 +34,5 @@
 
   ## Questions
 
-  Below is a link to my GitHub profile along with a link to my email.
-  GitHub Profile:
+  If you have any questions about the repo, open an issue or contact me directly at: stephaniemariagomez@gmail.com. You can find more of my work at https://github.com/smariagomez
 
-  smariagomez https://github.com/smariagomez
-
-  Email me at stephaniemariagomez@gmail.com
