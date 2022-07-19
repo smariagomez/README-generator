@@ -25,10 +25,10 @@
   Once the inquirer has been installed. Run the command node index.js. Once that step has been completed you will be led through a series of prompts where you will type in the requested information. Don’t forget to site this repo in the “credits” section. Once all of the questions/prompts have been responded to a README.md file will be generated in the output folder. Images will need to be stored in an assets folder with appropriate <img src> pathway manually typed into the README.md file. Once that step has been completed, copy the contents of the README.md file and paste in README.md file in the intended repo.
 <img src="./assets/screenshot3.jpg">
 
-  Walkthrough video tutorial: https://drive.google.com/file/d/1Dtso-bYuZSLmcwU7MEx8iRzk7aseY78t/view
+  Walkthrough video tutorial: https://drive.google.com/file/d/1zdAelzDzTK9bXNXqcAWFjIv4_n-WLMLe/view
       
   ## Credits
-  Markodex’s “Inquirer JS Beginner Tutorial” on YouTube  (https://www.youtube.com/watch?v=Qf5EXOyGRxw&t=429s).  Code syntax was referenced from https://www.npmjs.com/package/inquirer. The Request-Response Professional README Guide was used as a template for the layouts and prompts (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide). Contributor Covenant was created by Coraline Ada Ehmke and serves as the default contributor guidelines default ( https://www.contributor-covenant.org/). Lukas-h/license-badges.md was sourced for MIT License badge (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
+  Markodex’s “Inquirer JS Beginner Tutorial” on YouTube  (https://www.youtube.com/watch?v=Qf5EXOyGRxw&t=429s).  Code syntax was referenced from https://www.npmjs.com/package/inquirer. The Request-Response Professional README Guide was used as a template for the layouts and prompts (https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide). Contributor Covenant was created by Coraline Ada Ehmke and serves as the default contributor guidelines default ( https://www.contributor-covenant.org/). Lukas-h/license-badges.md was sourced for MIT License badge (https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba). Inquirer.js.
   
   ## License
 
