@@ -2,9 +2,11 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
     if (license === 'MIT License') {
-        return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
-    } else {
-        return""
+        return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    } else if (license==='GNU General Public License v3.0'){
+        return `[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)`;
+    } else {(license==='Not under license')
+        return ""
     }
 }
 
@@ -45,7 +47,7 @@ ${renderLicenseBadge(data.license)}
   
   ## License
 
-  This project is licensed under the ${data.license}.
+${data.license}
   
   ## Contributing
   ${data.contributing}

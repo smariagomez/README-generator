@@ -28,7 +28,7 @@ const questions = [
         type: 'input',
     },
     {
-        message: 'Write the steps required to install your project- should be a comprehensive step-by-step description of how to get the development environment running.',
+        message: 'Write the steps required to install your project- this should be a comprehensive step-by-step description of how to get the development environment running.',
         name: 'installation',
         type: 'input',
     },
@@ -46,7 +46,7 @@ const questions = [
         message: 'Select which license applies to your application. If there is no license then use the arrow key to select the empty row below GNU',
         name: 'license',
         type: 'list',
-        choices: ['MIT License', 'GNU General Public License v3.0', '']
+        choices: ['MIT License', 'GNU General Public License v3.0', 'Not under license']
 
     },
     {
