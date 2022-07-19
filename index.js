@@ -43,7 +43,7 @@ const questions = [
         type: 'input',
     },
     {
-        message: 'Select which license applies to your application.',
+        message: 'Select which license applies to your application. If there is no license then use the arrow key to select the empty row below GNU',
         name: 'license',
         type: 'list',
         choices: ['MIT License', 'GNU General Public License v3.0', '']
