@@ -1,9 +1,11 @@
-# rmg
+# test
 
-  ## Description
-  command line
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
-  ## Table of Contents (Optional)
+  ## Description
+  test
+  
+  ## Table of Contents
   
   - [Installation](#installation)
   - [Usage](#usage)
@@ -14,17 +16,17 @@
   - [Questions](#questions)
   
   ## Installation
-  testing
+  test
   
   ## Usage
-  testing
+  test
       
   ## Credits
-  Phillip Loy, David Hzura, https://www.npmjs.com/package/inquirer, Markodex https://www.youtube.com/watch?v=Qf5EXOyGRxw&t=429s
+  test
   
   ## License
-  MIT License
-  ---
+
+  This project is licensed under the MIT License.
   
   ## Contributing
    Please review the [Contributor Covenant](https://www.contributor-covenant.org/) for guidlines on how to contribute to this application.
@@ -34,5 +36,5 @@
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at: stephaniemariagomez@gmail.com. You can find more of my work at https://github.com/smariagomez
+  If you have any questions about the repo, you can open an issue or contact me directly at: gmail. See more of my work at https://github.com/smg.
 
