@@ -38,7 +38,7 @@ ${renderLicenseBadge(data.license)}
   ${data.installation}
   
   ## Usage
-  ${data.usage}
+  ${data.usage}\n
       
   ## Credits
   ${data.credits}
